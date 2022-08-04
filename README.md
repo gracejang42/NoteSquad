@@ -3,7 +3,7 @@
 
 ## Overview of Application Architecture:
 
-NoteSquad.com will be hosted with a free site, Heroku. 
+**NoteSquad.com** will be hosted with a free site, Heroku. 
 It will use amazon s3 as the filesystem for storing the notes (files) and PostgreSQL as the database for profiles and relevant information. 
 We use bootstrap and ejs partial templates for the user interface.
 
@@ -36,7 +36,7 @@ web_1 | http://localhost:3000
 web_1 | Seems all green!!
 ```
 
-To access the login page type localhost:3000/ into your preferred browser
+To access the login page type **localhost:3000/** into your preferred browser
 
 All pages should be accessible from the login.
 
@@ -70,7 +70,7 @@ They should turn green when all conditions are met and then the submit button be
 
 **Admin Profile:** The login credentials for the admin profile are: admin@email.com password: admin1password. Once logged in, you should be able to see all the reported notes in the Reported Notes section. You can still preview the notes if you'd like to look at them yourself, or you can delete them by clicking Delete. Once they are deleted, they should also be deleted from every user's saved notes.
 
-**Logging in and out, and About:** To log out of any profile, click Logout on the Navbar. You can log back in with the correct email and password. If you provide incorrect login information, red text should appear just above the NoteSquad copyright saying 'Invalid Credentials' . The About button on the navbar should redirect you to a page with the NoteSquad product description and Application Architecture Overview.
+**Logging in and out, and About:** To log out of any profile, click Logout on the Navbar. You can log back in with the correct email and password. If you provide incorrect login information, red text should appear just above the NoteSquad copyright saying 'Invalid Credentials'. The About button on the navbar should redirect you to a page with the NoteSquad product description and Application Architecture Overview.
 
 **Users Included in the Database:**
 
